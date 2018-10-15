@@ -1,0 +1,58 @@
+.navbar-inverse{
+	background-color: black;
+	
+}
+.footer {
+	width: 100%;
+	bottom: 0;
+	height: 50px;
+	background-color: black;
+	padding: 15px;
+	color : green;
+}
+
+.error {
+	color: red;
+
+}
+
+.container{
+	font-family :impact;
+	
+}
+.jumbotron{
+	font-family :georgia;	
+	background-image: url("/resources/images/ffield.jpg");
+	 background-size:cover;
+	color:black;
+	
+	
+	
+}
+
+h1, h2 , h3 , h4{
+	font-family :georgia;
+}
+.desc{
+	font-family :sans-serif;
+	padding-left:6px;
+}
+.team-box{
+	background-color: #f2f2f2;
+	border:1px solid;
+	border-radius:3px;
+}
+.team{
+	font-family :impact;
+}
+.news {
+	width:900px;
+	heigth:700px;
+	background-color: blue;
+}
+body{
+	background-color:#efefed;
+}
+
+	
+}
