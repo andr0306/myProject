@@ -4,9 +4,18 @@
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
 <body>
+<div class = "jumbotron">
+		<h2 align = "center">${ newsEntity.title}(${ newsEntity.date})</h2>
+	</div>
 	<div class = "news">
-		<div class = "photo">
-			<img src= "" class="img-fluid" alt="Responsive image">sadsadadsadds
+		<div class = "newsl"></div>
+		<div class = "newsc">
+			<div class = "photol"></div>
+			<div class = "photo"><img alt="asdsad" src="/${"resources/images/"}${newsEntity.img}"></div>
+			<div class = "photor"></div>
+			<div class = "text">${ newsEntity.description}</div>
 		</div>
+		<div class = "newsr"></div>
+			
 	</div>
 </body>

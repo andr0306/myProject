@@ -19,7 +19,7 @@
 	
 			<div>
 	      <div class="col-md-4"><a href="/${newsEntity.id}/shownews" class="thumbnail">
-	      <img src="${pageContext.request.contextPath}${"resources/images/qweqwe.jpg"}" alt="Image" style="max-width:100%;">
+	      <img src="${pageContext.request.contextPath}${"resources/images/"}${newsEntity.img}" alt="Image" style="max-width:100%;">
 	      <p align="center" class="team">${ newsEntity.title}</p>
 	      <p align="center"class="team">${ newsEntity.date}</p>
 	      </a>

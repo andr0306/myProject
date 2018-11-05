@@ -78,9 +78,10 @@ public class BaseController {
 		model.addAttribute("newsEntity",newsService.findAllNews());
 		return "news";
 	}
-	@GetMapping("/{newId}/shownews")
-	public String showSelectedNews(@PathVariable("newId") int newId, Model model) {
-		model.addAttribute("newsEntity",newsService.findNewsById(newId));
+	@GetMapping("/{newsId}/shownews")
+	public String showSelectedNews(@PathVariable("newsId") int newsId, Model model) {
+		model.addAttribute("newsEntity",newsService.findNewsById(newsId));
 		return "selectednews";
 	}
+	
 }
