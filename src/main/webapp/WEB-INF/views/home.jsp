@@ -35,8 +35,7 @@ FC Elita - одна з кращих футбольних команд сучас
 
 
 </div>
- <button id="but">WWWWWSS</button>
- <p id="ttt">s</p>
+ 
 </body>
 	
 

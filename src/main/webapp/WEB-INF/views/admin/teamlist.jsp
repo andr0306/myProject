@@ -16,7 +16,7 @@
                         <th>Прізвище</th>
                         <th>Вік</th>
                         <th>Позиція</th>
-                        <th>Опис</th>
+                        <th>Рейтинг</th>
                         <th>Редагувати</th>
                         <th>Видалити</th>
                       </tr>
@@ -29,7 +29,7 @@
                         <td>${ teamEntity.lastname}</td>
                         <td>${ teamEntity.age}</td>
                         <td>${ teamEntity.position}</td>
-                        <td>${ teamEntity.description}</td>
+                        <td>${ teamEntity.rating}</td>
                         <td><a href = "${pageContext.request.contextPath }/admin/${teamEntity.id}/editteam">Редагувати</a></td>
                          <td><a href = "${pageContext.request.contextPath }/admin/${teamEntity.id}/deleteplayer">Видалити</a></td>
                         

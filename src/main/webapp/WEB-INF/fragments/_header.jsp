@@ -14,6 +14,8 @@
         <li><a href="${pageContext.request.contextPath}/team">Склад команди</a></li>
         <li><a href="${pageContext.request.contextPath}/results">Результати</a></li>
         <li><a href="${pageContext.request.contextPath}/news">Новини</a></li>
+        <li><a href="${pageContext.request.contextPath}/peticion">Петиції</a></li>
+        <li><a href="${pageContext.request.contextPath}/addpeticion">Подати петіцію</a></li>
         
       </ul>
 

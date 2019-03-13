@@ -44,9 +44,9 @@
                     </div> 
                    
                     <div class="form-group">
-                        <label for="amount" class="col-sm-3 control-label">Опис</label>
+                        <label for="amount" class="col-sm-3 control-label">Рейтинг</label>
                         <div class="col-sm-9">
-                            <textarea rows="3" cols="58" id="description" name="description"></textarea>
+                            <input type="text" class="form-control" id="rating" name="rating">
                         </div>
                     </div>
                     

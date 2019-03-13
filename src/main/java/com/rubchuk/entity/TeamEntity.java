@@ -19,9 +19,7 @@ public class TeamEntity extends BaseEntity{
 	
 	private String img;
 	
-	@Lob
-	@Column(columnDefinition = "TEXT")
-	private String description;
+	private String rating;
 
 	public TeamEntity() {
 		super();
@@ -68,14 +66,12 @@ public class TeamEntity extends BaseEntity{
 		this.img = img;
 	}
 
-	public String getDescription() {
-		return description;
+	public String getRating() {
+		return rating;
 	}
 
-	public void setDescription(String description) {
-		this.description = description;
+	public void setRating(String rating) {
+		this.rating = rating;
 	}
-	
-
 	
 }
