@@ -17,6 +17,7 @@ import com.rubchuk.mapper.UserMapper;
 import com.rubchuk.service.MatchService;
 import com.rubchuk.service.NewsService;
 import com.rubchuk.service.TeamService;
+import com.rubchuk.service.TeamU21Service;
 import com.rubchuk.service.UserService;
 
 @Controller
@@ -31,6 +32,8 @@ public class BaseController {
 	private NewsService newsService;
 	@Autowired
 	private UserService userService;
+	@Autowired
+	private TeamU21Service teamU21Service;
 	
 	@GetMapping("/")
 	public String showHome() {
@@ -67,6 +70,11 @@ public class BaseController {
 	public String showTeamPage(Model model) {
 		model.addAttribute("teamEntity", teamService.findAllTeam());
 		return "team";
+}
+	@GetMapping("/teamU21")
+	public String showTeamU21Page(Model model) {
+		model.addAttribute("teamU21Entity", teamU21Service.findAllTeamU21());
+		return "teamU21";
 }
 	@GetMapping("/results")
 	public String showResultsPage(Model model) {

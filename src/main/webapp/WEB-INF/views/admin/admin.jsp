@@ -12,10 +12,14 @@
                <li class="dropdown">
          
           	<li><a href="${pageContext.request.contextPath}/admin/teamlist"><i class="fa fa-bar-chart-o fa-fw"></i>Склад</a></li>
+          	<li><a href="${pageContext.request.contextPath}/admin/teamU21list"><i class="fa fa-bar-chart-o fa-fw"></i>СкладU21</a></li>
             <li><a href="${pageContext.request.contextPath}/admin/matchlist"><i class="fa fa-table fa-fw"></i> Результати</a></li>
+             <li><a href="${pageContext.request.contextPath}/admin/matchU21list"><i class="fa fa-table fa-fw"></i> РезультатиU21</a></li>
             <li><a href="${pageContext.request.contextPath}/admin/newslist"><i class="fa fa-calendar fa-fw"></i>Список новин</a></li>
             <li><a href="${pageContext.request.contextPath}/admin/addteam"><i class="fa fa-pencil fa-fw"></i>Редагувати склад</a></li>
+             <li><a href="${pageContext.request.contextPath}/admin/addteamU21"><i class="fa fa-pencil fa-fw"></i>Редагувати складU21</a></li>
             <li><a href="${pageContext.request.contextPath}/admin/addmatch"><i class="fa fa-book fa-fw"></i>Додати результат</a></li>
+                   <li><a href="${pageContext.request.contextPath}/admin/addmatchU21"><i class="fa fa-book fa-fw"></i>Додати результатU21</a></li>
             <li><a href="${pageContext.request.contextPath}/admin/addnews"><i class="fa fa-cogs fa-fw"></i>Додати новину</a></li>
              
             </ul>
