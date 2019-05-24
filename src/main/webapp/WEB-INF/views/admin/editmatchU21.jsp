@@ -6,9 +6,11 @@
 
 
 
-       <form:form method="POST" action="${pageContext.request.contextPath }" modelAttribute="matchEntity">
+       <form:form method="POST"
+        action="${pageContext.request.contextPath }/admin/${matchU21Entity.id}/editmatchU21" 
+        modelAttribute="matchEntity">
         <div id="frm">
-             <h4 style="text-align:center">Додати результат</h4>
+             <h4 style="text-align:center">Редагувати результат:</h4>
             <div class="panel panel-default">
                 <div class="panel-body form-horizontal payment-form">
                     <div class="form-group">
@@ -18,7 +20,7 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="description" class="col-sm-3 control-label">Противники</label>
+                        <label for="description" class="col-sm-3 control-label">Противник</label>
                         <div class="col-sm-9">
                             <input type="text" class="form-control" id="enemyname" name="enemyname">
                         </div>
@@ -36,11 +38,11 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="amount" class="col-sm-3 control-label">Дата</label>
+                        <label for="description" class="col-sm-3 control-label">Дата</label>
                         <div class="col-sm-9">
                             <input type="text" class="form-control" id="date" name="date">
                         </div>
-                    </div>
+                     
                     <div class="form-group">
                         <div class="col-sm-12 text-right">
                             <button type="submit" class="btn btn-default preview-add-button">
@@ -49,13 +51,9 @@
                              <a href="/admin" class="btn btn-success btn-product"> Назад</a>
                         </div>
                     </div>
-                    </div> 
-                    
-                     
-                    
                 </div>
             </div>            
-        
+        </div>
         </form:form>
         
         <style>

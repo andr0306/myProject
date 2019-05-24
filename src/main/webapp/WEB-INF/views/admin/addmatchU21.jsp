@@ -6,7 +6,7 @@
 
 
 
-       <form:form method="POST" action="${pageContext.request.contextPath }" modelAttribute="matchEntity">
+       <form:form method="POST" action="${pageContext.request.contextPath }" modelAttribute="matchU21Entity">
         <div id="frm">
              <h4 style="text-align:center">Додати результат</h4>
             <div class="panel panel-default">
