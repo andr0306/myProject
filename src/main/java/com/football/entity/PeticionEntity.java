@@ -15,6 +15,10 @@ public class PeticionEntity extends BaseEntity {
 	 
 	private String title;
 	
+	private int likes;
+	
+	private int dislike;
+	
 	@Lob
 	@Column(columnDefinition="TEXT")
 	private String description;
@@ -56,6 +60,22 @@ public class PeticionEntity extends BaseEntity {
 
 	public void setDescription(String description) {
 		this.description = description;
+	}
+
+	public int getLikes() {
+		return likes;
+	}
+
+	public void setLikes(int likes) {
+		this.likes = likes;
+	}
+
+	public int getDislike() {
+		return dislike;
+	}
+
+	public void setDislike(int dislike) {
+		this.dislike = dislike;
 	}
 	
 	

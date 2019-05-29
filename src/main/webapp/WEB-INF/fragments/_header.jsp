@@ -26,7 +26,7 @@
             <li><a href="${pageContext.request.contextPath}/resultsU21">U21</a></li>
           </ul>
         </li>
-        
+        <sec:authorize access="isAuthenticated()">
          <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Петиції <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -34,6 +34,7 @@
             <li><a href="${pageContext.request.contextPath}/addpeticion">Подати петицію</a></li>
           </ul>
         </li>
+         </sec:authorize>
          <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Інвестори <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -53,7 +54,7 @@
 		     
 		     <sec:authorize access="isAuthenticated()">
 		     		<sec:authentication property="principal.username" var="username"/>
-	     			<li><a href="/admin">${username}</a></li>
+	     			<li><a href="/admin" id='user'>${username}</a></li>
 
 					<c:url var="logoutUrl" value="/logout" />
 					<form:form action="${logoutUrl}" method="post" cssStyle="padding-top: 7px;">
