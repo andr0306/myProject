@@ -44,7 +44,7 @@
                     </div> 
                    
                     <div class="form-group">
-                        <label for="amount" class="col-sm-3 control-label">Рейтинг</label>
+                        <label for="amount" class="col-sm-3 control-label">Номер</label>
                         <div class="col-sm-9">
                             <input type="text" class="form-control" id="rating" name="rating">
                         </div>

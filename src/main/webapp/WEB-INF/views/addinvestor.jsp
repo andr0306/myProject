@@ -40,6 +40,13 @@
                     </div> 
                     
                     <div class="form-group">
+                        <label for="description" class="col-sm-3 control-label">Eмейл</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="email" name="email">
+                        </div>
+                    </div> 
+                    
+                    <div class="form-group">
                         <label for="description" class="col-sm-3 control-label">Країна</label>
                         <div class="col-sm-9">
                             <input type="text" class="form-control" id="country" name="country">

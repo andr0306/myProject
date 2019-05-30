@@ -16,6 +16,7 @@
                         <th>Прізвище</th>
                         <th>Вік</th>
                         <th>Номер телефону</th>
+                        <th>Емейл</th>
                         <th>Країна</th>
                         <th>Місто</th>
                         
@@ -29,6 +30,7 @@
                         <td>${ investorEntity.lastName}</td>
                         <td>${ investorEntity.age}</td>
                         <td>${ investorEntity.phoneNumber}</td>
+                        <td>${ investorEntity.email}</td>
                         <td>${ investorEntity.country}</td>
                         <td>${ investorEntity.city}</td>
                        

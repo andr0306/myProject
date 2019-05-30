@@ -18,6 +18,8 @@ public class InvestorEntity extends BaseEntity{
 	private String country;
 	
 	private String city;
+	
+	private String email;
 
 	public InvestorEntity() {
 		super();
@@ -70,6 +72,14 @@ public class InvestorEntity extends BaseEntity{
 
 	public void setCity(String city) {
 		this.city = city;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
 	}
 	
 	

@@ -28,7 +28,7 @@
                     <h3 align = "center">Ім'я: ${ teamU21Entity.firstname} ${ teamU21Entity.lastname} </h3>
                     <h4 align = "center">Вік: ${ teamU21Entity.age}</h4>
                     <h4 align = "center">Позиція: ${ teamU21Entity.position}</h4>
-                    <h4 align = "center">Рейтинг: ${ teamU21Entity.rating}</h4>
+                    <h4 align = "center">Номер: ${ teamU21Entity.rating}</h4>
                     
                	 </div>
            		 </div>           
