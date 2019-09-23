@@ -9,8 +9,9 @@
 
        <form:form method="POST" action="${pageContext.request.contextPath }" modelAttribute="teamEntity">
         <div id="frm">
-             <h4 style="text-align:center">Додати гравця:</h4>
+             
             <div class="panel panel-default">
+            <h4 style="text-align:center">Додати гравця:</h4>
                 <div class="panel-body form-horizontal payment-form">
                     <div class="form-group">
                         <label for="concept" class="col-sm-3 control-label">Імя</label>
@@ -63,10 +64,4 @@
             </div>            
         </div>
         </form:form>
-        
-        <style>
-        	#frm{
-        	width: 60%;
-        	margin:auto;
-        	}
-        </style>
+ 

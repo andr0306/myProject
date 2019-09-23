@@ -9,8 +9,8 @@
 
        <form:form method="POST" action="${pageContext.request.contextPath }" modelAttribute="peticionEntity">
         <div id="frm">
-             <h4 style="text-align:center">Додати петицію:</h4>
             <div class="panel panel-default">
+             <h4 style="text-align:center">Додати петицію:</h4>
                 <div class="panel-body form-horizontal payment-form">
                     <div class="form-group">
                         <label for="concept" class="col-sm-3 control-label">Імя</label>
@@ -34,7 +34,7 @@
                     <div class="form-group">
                         <label for="amount" class="col-sm-3 control-label">Опис</label>
                         <div class="col-sm-9">
-                            <textarea rows="3" cols="58" id="description" name="description"></textarea>
+                            <textarea rows="3" cols="50" id="description" name="description"></textarea>
                         </div>
                     </div>
                     
@@ -48,7 +48,8 @@
                         </div>
                     </div>
                 </div>
-            </div>            
+            </div> 
+            </div>           
         </div>
         </form:form>
         

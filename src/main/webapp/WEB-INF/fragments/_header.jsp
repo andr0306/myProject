@@ -5,27 +5,21 @@
   <div class="container">
     <div class="navbar-header">
      
-      <a class="navbar-brand">Fc Elita</a>
+      <a class="navbar-brand">Fc Fenix</a>
     </div>
 
     <div class=" navbar-collapse collapse ">
       <ul class="nav navbar-nav ">
         <li><a href="/">Головна<span class="sr-only">(current)</span></a></li>
-     <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Склад команди <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="${pageContext.request.contextPath}/team">Основа</a></li>
-            <li><a href="${pageContext.request.contextPath}/teamU21">U21</a></li>
-          </ul>
-        </li>
+        
+     	<li><a href="${pageContext.request.contextPath}/team">Склад команди</a></li>
+     	
         <li><a href="${pageContext.request.contextPath}/news">Новини</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Результати <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="${pageContext.request.contextPath}/results">Основа</a></li>
-            <li><a href="${pageContext.request.contextPath}/resultsU21">U21</a></li>
-          </ul>
-        </li>
+        
+        <li><a href="${pageContext.request.contextPath}/results">Результати</a></li>
+        
+        
+        
         <sec:authorize access="isAuthenticated()">
          <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Петиції <span class="caret"></span></a>
@@ -35,13 +29,6 @@
           </ul>
         </li>
          </sec:authorize>
-         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Інвестори <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="${pageContext.request.contextPath}/investors">Cписок інвесторів</a></li>
-            <li><a href="${pageContext.request.contextPath}/addinvestor">Стати інвестором</a></li>
-          </ul>
-        </li>
       </ul>
       
 
